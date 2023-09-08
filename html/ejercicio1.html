@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taller # 3 para el día 07/09/2023">
+    <meta name="keywords" content="">
+    <meta name="author" content="Julio César Fernández Revollo">
+    <title>Ejemplo Layout Con Tablas # 1</title>
+    <style>
+        
+        table, tr, td {
+            border: 5px solid black;
+            border-collapse: collapse;
+        }
+
+        tr, td {
+            padding: 25px;
+        }
+    
+    </style>
+</head>
+<body>
+    <table width="750px">
+
+        <tr style="background-color: rgb(52, 211, 100); color: white;">
+            <th colspan="3"><h1>layout header - top navigation</h1></th>
+        </tr>
+
+        <tr width="25px">
+            <td style="background-color: rgb(160, 160, 255); text-align: center;">Link 1</td>
+
+            <td rowspan="4" colspan="2" style="text-align: center; background-color: rgb(160, 160, 255);">
+                <h1 style="background-color: rgb(74, 74, 187); color: white;">
+                    < H1 tag - header line > </h1>
+                <img src="../img/campo.png" alt=""> <br>
+                <p>Page content will appear here</p> <br>
+                <p style="text-align: right;">WebTrainingRoom</p>
+            </td>
+        </tr>
+
+        <tr width="25px">
+            <td style="background-color: rgb(160, 160, 255); text-align: center;">Link 2</td>
+        </tr>
+
+        <tr width="25px">
+            <td style="background-color: rgb(160, 160, 255); text-align: center;">Link 3</td>
+        </tr>
+
+        <tr width="25px">
+            <td rowspan="2" style="background-color: rgb(160, 160, 255); text-align: center;">
+                Link 4</td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center; color: white; background-color: rgb(160, 160, 255);">
+                BOTTOM NAVIGATION | COPYRIGHT</td>
+        </tr>
+    </table>
+</body>
+</html>
